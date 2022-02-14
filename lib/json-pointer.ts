@@ -1,0 +1,7 @@
+
+/**
+ * JsonPointer class
+ */
+class JsonPointer {
+
+}

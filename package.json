@@ -1,0 +1,35 @@
+{
+  "name": "json-pointer",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/merkle-tree.js",
+  "types": "dist/merkle-tree.js.map",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x1289/json-pointer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x1289/json-pointer/issues"
+  },
+  "homepage": "https://github.com/x1289/json-pointer#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
